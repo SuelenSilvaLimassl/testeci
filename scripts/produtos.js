@@ -9,7 +9,8 @@ window.onload = function() {
       elemento += "<tr>";
       elemento += "<td>" + produtos[indice].codigo + "</td>";
       elemento += "<td>" + produtos[indice].nome + "</td>";
-      elemento += "<td>" + produtos[indice].valor + "</td>";      
+      elemento += "<td>" + produtos[indice].valor + "</td>";
+      elemento += "<td></td>"    
       elemento += "</tr>";
     }
     let tabelaProdutos = document.getElementById("tabelaProdutos");
